@@ -2,6 +2,49 @@
   text-align: center;
   background-color:whitesmoke;
   min-height: 100vh;
+  flex-direction: column;
+}
+.Body{
+  justify-content: flex-start;
+}
+.Drawer{
+  color:black;
+  background-color: whitesmoke;
+  width: max(17vw, 10%);
+  min-height: 100vh;
+  list-style-type: none;
+  justify-content:center;
+  align-items: center;
+  
+}
+.btn{
+  width:90%;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid transparent;
+  font-size: medium;
+  background-color: whitesmoke;
+}
+
+.btn-1:hover{
+  background-color: whitesmoke;
+  border-color: red;
+  border-radius: 10px;
+  color:red;
+}
+
+.btn-2:hover{
+  background-color: whitesmoke;
+  border-color: green;
+  border-radius: 10px;
+  color:green;
+}
+
+.btn-3:hover{
+  background-color: whitesmoke;
+  border-color: blue;
+  border-radius: 10px;
+  color:blue;
 }
 
 .App-logo {
@@ -15,13 +58,14 @@
   }
 }
 
-.App-header {
+.App-header { /* This is a test comment.*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
   font-size: calc(10px + 2vmin);
   color: black;
+  height:10vh;
 }
 
 .App-link {
